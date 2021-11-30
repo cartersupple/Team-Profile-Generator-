@@ -2,5 +2,26 @@
   "dependencies": {
     "inquirer": "^8.2.0",
     "jest": "^27.4.0"
-  }
+  },
+  "name": "team-profile-generator-",
+  "description": "![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cartersupple/Team-Profile-Generator-.git"
+  },
+  "author": "cartersupple",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cartersupple/Team-Profile-Generator-/issues"
+  },
+  "homepage": "https://github.com/cartersupple/Team-Profile-Generator-#readme"
 }

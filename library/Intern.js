@@ -17,3 +17,5 @@ class Intern extends Employee  {
         return "Intern"
     }
 } 
+// export
+module.exports = Intern; 
