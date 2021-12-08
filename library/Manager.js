@@ -1,4 +1,6 @@
-// manager constructor
+// import employee constructor
+const Employee = require('./Employee')
+// manager constructor adds on top of employee constructor
 class Manager extends Employee {
     constructor (name, id, email, officeNumber) {
         // call for employee constructor
@@ -6,7 +8,6 @@ class Manager extends Employee {
 
         this.officeNumber = officeNumber; 
     }
-
     // change employee role to manager 
     getRole () {
         return "Manager"
