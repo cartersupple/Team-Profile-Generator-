@@ -1,5 +1,5 @@
 // link to where html will populate
-const generatePage = require('./dist/index.html')
+const generatePage = require('./src/generatePage')
 
 // employed profiles
 const Manager = require('./library/Manager');
