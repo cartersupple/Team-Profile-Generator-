@@ -16,6 +16,7 @@
 Clone the repository from GitHub and download Node. Requires a file system and inquirer module. For testing, this application uses Jest. 
 
 ## Usage 
+
 https://watch.screencastify.com/v/y9nVIrsOxWXXtTLmTbqR
 Use inquirer from your command line to answer questions that will generate employee information. 
 

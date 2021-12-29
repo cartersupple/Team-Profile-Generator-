@@ -2,7 +2,7 @@
 const generateManager = function (manager) {
     return `
     <div class="col-4 mt-4">
-        <div class="card h-100 bg-primary">
+        <div class="card h-100 bg-danger">
             <div class="card-header">
                 <h3>${manager.name}</h3>
                 <h4 class="card-subtitle mb-2 text-muted">Manager</h4><i class="material-icons">content_paste</i>
