@@ -21,8 +21,8 @@ Clone the repository from GitHub and download Node. Requires a file system and i
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/89411805/147629914-6e96e884-ef6a-40cd-a355-a7e87513db39.gif)
 
 https://watch.screencastify.com/v/y9nVIrsOxWXXtTLmTbqR
-Use inquirer from your command line to answer questions that will generate employee information. 
 
+Run the command "node index" in the terminal to bring up the inquirer module. Follow the prompts until you have entered all employee information. Once completed, the terminal will ask if you would like to add more. Enter "N" and the file system will create a prestyled html document. 
 ## License 
 This project is license under MIT
 
