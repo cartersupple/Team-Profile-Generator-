@@ -17,6 +17,7 @@ Clone the repository from GitHub and download Node. Requires a file system and i
 
 ## Usage 
 
+https://user-images.githubusercontent.com/89411805/147629659-8513ecbc-a101-407c-8742-edece69d87fc.mov
 https://watch.screencastify.com/v/y9nVIrsOxWXXtTLmTbqR
 Use inquirer from your command line to answer questions that will generate employee information. 
 
