@@ -12,6 +12,7 @@ const inquirer = require('inquirer')
 
 const teamArray = [];
 
+// manager prompts
 const managerInfo = () => {
     return inquirer.prompt([
             {
@@ -41,7 +42,7 @@ const managerInfo = () => {
         })
     };
 
-
+// engineer intern prompts
 const addEmployee = () => {
     return inquirer.prompt([
         {
@@ -109,7 +110,7 @@ const addEmployee = () => {
             default: false
         }
     ])
-   
+//    push data for employees
     .then(response => {
 
         switch (response.role) {
@@ -141,7 +142,7 @@ managerInfo()
     console.log(err);
   });
 
-
+// generate html using the file system
 const writeFile = fileContent =>{
     return new Promise((resolve, reject)=>{
         fs.writeFile('./dist/index.html', fileContent, err =>{
