@@ -3,6 +3,7 @@
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description 
+The Team Profile Generator is a user input driven backend application to save time creating html documents for employee representation. Utilizing the inquirer module of Node.js, users enter employee information into the Terminal. Once satisfied adding employees, the app will ask if the user is finished and will then push data for each employee into a html template. The generated html can be viewed by opening in browser. 
 
 ## Table of Contents
 * [Installation](#installation)
